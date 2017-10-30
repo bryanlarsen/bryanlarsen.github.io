@@ -23,7 +23,7 @@ On the way back to the hotel we tried to catch some of the waves and surf back. 
 
 As we were wet already we decided to take a swim in the pool.  There is definitely a huge buoyancy difference between the ocean and the pool.  But it is so nice not to be spitting salty water.  The hotel is beautiful.  It is considered to be the most ecofriendly resort in the Galapagos and is listed in the National Geographic as one of the most Unique Lodges in the world.  The rooms are pleasant.  The common space and poolside lovely and very clean and well-kempt.  The service friendly.  It is noticeably a quieter time for the hotel, which we like.  And a bit cooler, which we don’t mind.  
 
-![image alt text](image_0.jpg)
+![image alt text](/assets/2017-10-19\/image_0.jpg)
 
-![image alt text](image_1.jpg)no no v![image alt text](image_2.jpg)by bus no v b B
+![image alt text](/assets/2017-10-19\/image_1.jpg)no no v![image alt text](/assets/2017-10-19\/image_2.jpg)by bus no v b B
 
