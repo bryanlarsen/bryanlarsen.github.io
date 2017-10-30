@@ -16,7 +16,7 @@ for year_path in old/2* ; do
                 post=`basename $post_path`
                 title=$(pup 'h2.title text{}' < $post_path)
                 date=$(pup '.article > .meta text{}' < $post_path | date --date="`sed -e 's/@//' -e 's/.* on //' -e 's/[a-z]*,/,/'`" --rfc-3339=seconds)
-                body=$(pup '.article > .body' < $post_path)
+                body=$(pup '.article > .body' < $post_path | sed -e 's|http://bryan.larsen.st/assets|/assets|g')
                 comments=$(pup '.comments' < $post_path)
 
                 mytags=""
