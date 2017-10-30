@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>Bryan's Blog - Personal</title>
+  <id>tag:bryan.larsen.st,2009:mephisto/personal</id>
+  <generator version="0.7.3" uri="http://mephistoblog.com">Mephisto Noh-Varr</generator>
+  <link href="http://bryan.larsen.st/feed/personal/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://bryan.larsen.st/personal" rel="alternate" type="text/html"/>
+  <updated>2007-02-02T02:34:18Z</updated>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>bryan</name>
+    </author>
+    <id>tag:bryan.larsen.st,2007-02-02:177</id>
+    <published>2007-02-02T02:33:00Z</published>
+    <updated>2007-02-02T02:34:18Z</updated>
+    <category term="Personal"/>
+    <link href="http://bryan.larsen.st/2007/2/2/bethany-and-i-are-engaged" rel="alternate" type="text/html"/>
+    <title>Bethany and I are engaged!</title>
+<content type="html">
+            &lt;p&gt;I imagine that most of you know this by now, but I proposed to Bethany on Christmas Eve, and she accepted!  We are going to be married in Saskatoon sometime after harvest is over.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bryan.larsen.st/assets/2007/2/2/selfportrait-small.jpg&quot;&gt;&lt;/p&gt;
+          </content>  </entry>
+</feed>

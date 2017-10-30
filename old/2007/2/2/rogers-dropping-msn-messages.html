@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+  Bryan's Blog 
+  
+  
+    - Rogers dropping MSN messages?
+  
+</title>
+<link rel="alternate" type="application/atom+xml" title="Bryan's Blog feed" href="http://feeds.feedburner.com/bryan-larsen"/>
+<link rel="alternate" type="application/atom+xml" title="Bryan's Blog comments feed" href="http://feeds.feedburner.com/bryan-larsen/comments"/>
+<link href="/stylesheets/base.css" rel="stylesheet" type="text/css" />
+<script src="/javascripts/app.js" type="text/javascript"></script>
+<!--[if IE]>
+<link href="/stylesheets/base_ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+</head>
+
+<body class="fluid cyan">
+<script type="text/javascript">loadPreferences()</script> 
+
+<div id="wrapper">
+
+<div id="header" class="clearfix">
+<div id="title" class="clearfix">
+  <h1><a href="/">Bryan's Blog</a></h1>
+</div>
+<h2>Sections</h2>
+<ul id="menu">
+
+  
+  
+    <li><a href="/">Home</a></li>
+  
+  
+
+  
+  
+    
+  
+  
+
+  
+  
+    
+  
+  
+
+  
+  
+    
+  
+  
+
+  
+  
+    
+  
+  
+
+  
+  
+    
+  
+  
+
+  
+  
+    
+    <li><a href="/projects">Projects</a></li>
+    
+  
+  
+
+  
+  
+    
+    <li><a href="/resume">Resume</a></li>
+    
+  
+  
+
+  
+  
+    
+  
+  
+
+</ul>
+</div>
+
+<div id="contentwrapper" class="clearfix">
+
+<div id="content">
+  
+  <div id="innerwrapper">
+
+<div class="article">
+
+  <h2 class="title"><a href="/2007/2/2/rogers-dropping-msn-messages">Rogers dropping MSN messages?</a></h2>
+  <p class="meta">written by bryan on February 1st, 2007 @ 09:35 PM</p>
+  <div class="body">
+    <p>For the last month or so, communications between my fiancée and myself
+over MSN have been unreliable.  It appeared that I received all of the
+messages that my fiancée sent, but she did not get a few of the
+messages I sent.  This was very aggravating, because there was no
+notification that a problem occurred.  She just thought that I wasn&#8217;t
+responding to her!  </p>
+
+<p>In the past I&#8217;ve had problems with dropped connections to various
+instant messaging servers.  Those were annoying, but at least you knew
+about it.  If the connection dropped, your client would tell you that
+the message could not be delivered.</p>
+
+<p>I&#8217;ve tried a couple of different AIM clients to try and fix the
+problem.  However, it turns out that both of them use libgaim as their
+back-end, so that is possibly the source of the problem.</p>
+
+<p>However, there is also another potential source of the problem: my
+ISP, Rogers.  Rogers is probably the largest Internet over Cable
+provider in Canada, and employs packet-shaping devices to silently
+drop encrypted bittorrent connections.  To identify normal bittorrent
+packets, Rogers can use packet filters that identify the traffic as
+bittorrent with near 100% certainty.  However, encrypted bittorrent
+traffic is much more difficult to identify; to a third party observer,
+the traffic is very similar to random noise.  Other encrypted and/or
+compressed communications channels will seem very similar.</p>
+
+<p>Certainly there are signatures that might identify it as encrypted
+bittorrent traffic, however it is much more like that &#8220;false
+positives&#8221; might occur, and the packet filters might start interfering
+with other services, such as my MSN.  <a href="http://www.dslreports.com/forum/remark,17750499">According to my dslreports
+thread</a>, there may be
+others with the same problem.</p>
+
+<p>I may be able to live without bittorrent; there are other ways of
+downloading ubuntu ISO&#8217;s.  However, if I cannot be sure that other
+services I rely on are unaffected, I am forced to switch internet
+providers.  I have begun this process; I highly recommend that all
+other customers of Rogers also do the same.</p>
+  </div>
+  <div class="footer">
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/2/2/rogers-dropping-msn-messages">0 comments</a>
+  </div>
+</div>
+
+
+
+
+<div id="commentform">
+<h3 class="content">Post a comment</h3>
+
+</div>
+
+
+  </div>
+
+</div>
+
+
+
+<div id="sidebar">
+
+<div class="boxy short">
+<ul>
+   <li>Bryan's sites:</li>
+   <li><a href="http://www.github.com/bryanlarsen">GitHub</a></li>
+   <li><a href="http://www.linkedin.com/in/bryanlarsen">Linked In</a></li>
+   <li><a href="http://www.ohloh.net/accounts/bryan_larsen">OhLoh</a></li>
+   <li></li>
+  <li>Bethany's sites</li>
+  <li><a href="http://www.flickr.com/photos/aadland/">Flickr</a></li>
+</ul>
+<p>
+<form Method="POST" action="http://www.feedblitz.com/f/f.fbz?AddNewUserDirect">
+  Enter your Email for updates:<br /><input name="EMAIL" type="text"  value="">
+  <input name="FEEDID" type="hidden" value="99876">
+  <br />Powered by <a href="http://www.feedblitz.com">FeedBlitz</a>
+</form> 
+</p>
+</div>
+
+<div id="search" class="boxy short">
+  <h3>Search</h3>
+  <form method="get" action="/search">
+    <fieldset>
+      <input class="text" type="text" id="q" value="" name="q"/>
+    </fieldset>
+  </form>
+</div> 
+
+<div class="boxy short">
+   <h3>Sections</h3>
+      <ul>
+      
+        <li><a href="/">Home</a> 
+         
+              <em><font size=-2><a class="feed" href="http://feeds.feedburner.com/bryan-larsen" rel="alternate" type="application/rss+xml"></a>&nbsp;<a href="http://feeds.feedburner.com/bryan-larsen/" rel="alternate" type="application/rss+xml">Subscribe</a></font></em></li>
+         
+      
+        <li><a href="/europe-2006">Europe 2006</a> 
+         
+              <em><font size=-2><a class="feed" href="http://feeds.feedburner.com/bryan-larsen" rel="alternate" type="application/rss+xml"></a>&nbsp;<a href="http://feeds.feedburner.com/bryan-larsen/europe-2006" rel="alternate" type="application/rss+xml">Subscribe</a></font></em></li>
+         
+      
+        <li><a href="/technical">Technical</a> 
+         
+              <em><font size=-2><a class="feed" href="http://feeds.feedburner.com/bryan-larsen" rel="alternate" type="application/rss+xml"></a>&nbsp;<a href="http://feeds.feedburner.com/bryan-larsen/technical" rel="alternate" type="application/rss+xml">Subscribe</a></font></em></li>
+         
+      
+        <li><a href="/arguments">Arguments</a> 
+         
+              <em><font size=-2><a class="feed" href="http://feeds.feedburner.com/bryan-larsen" rel="alternate" type="application/rss+xml"></a>&nbsp;<a href="http://feeds.feedburner.com/bryan-larsen/arguments" rel="alternate" type="application/rss+xml">Subscribe</a></font></em></li>
+         
+      
+        <li><a href="/personal">Personal</a> 
+         
+              <em><font size=-2><a class="feed" href="http://feeds.feedburner.com/bryan-larsen" rel="alternate" type="application/rss+xml"></a>&nbsp;<a href="http://feeds.feedburner.com/bryan-larsen/personal" rel="alternate" type="application/rss+xml">Subscribe</a></font></em></li>
+         
+      
+        <li><a href="/meta">Meta</a> 
+         
+              <em><font size=-2><a class="feed" href="http://feeds.feedburner.com/bryan-larsen" rel="alternate" type="application/rss+xml"></a>&nbsp;<a href="http://feeds.feedburner.com/bryan-larsen/meta" rel="alternate" type="application/rss+xml">Subscribe</a></font></em></li>
+         
+      
+        <li><a href="/projects">Projects</a> 
+         
+              </li>
+         
+      
+        <li><a href="/resume">Resume</a> 
+         
+              </li>
+         
+      
+        <li><a href="/new-zealand-christmas">New Zealand Christmas</a> 
+         
+              <em><font size=-2><a class="feed" href="http://feeds.feedburner.com/bryan-larsen" rel="alternate" type="application/rss+xml"></a>&nbsp;<a href="http://feeds.feedburner.com/bryan-larsen/new-zealand-christmas" rel="alternate" type="application/rss+xml">Subscribe</a></font></em></li>
+         
+      
+      </ul>
+</div>
+
+<div class="boxy tall">
+  <h3>Recent</h3>
+
+<dl>
+<dt>Articles <a class="feed" href="http://feeds.feedburner.com/bryan-larsen"><span>subscribe</span></a></dt>
+<dd>
+  <ul>
+  
+    <li><a href="/2009/3/23/using-a-vertex-ssd-with-ubuntu-jaunty">Installing and Optimizing an SSD with Ubuntu Jaunty</a> <em>(March 23rd)</em></li>
+  
+    <li><a href="/2009/1/26/january-17th-again-honolulu">January 17th (again!) -- Honolulu</a> <em>(January 25th)</em></li>
+  
+    <li><a href="/2009/1/24/january-17-flying-away">January 17 -- Flying Away</a> <em>(January 24th)</em></li>
+  
+    <li><a href="/2009/1/22/january-16-last-day">January 16 -- Last Day</a> <em>(January 22nd)</em></li>
+  
+    <li><a href="/2009/1/21/january-21-pampered-at-hell-s-gate">January 15 -- Pampered at Hell's Gate</a> <em>(January 21st)</em></li>
+  
+    <li><a href="/2009/1/20/january-14-maori-experience-in-rotorua">January 14 -- Maori Experience in Rotorua</a> <em>(January 20th)</em></li>
+  
+    <li><a href="/2009/1/19/january-13-robbed-in-turangi">January 13 -- Robbed in Turangi</a> <em>(January 19th)</em></li>
+  
+    <li><a href="/2009/1/18/january-12-waitomo-adventure">January 12 -- Waitomo Adventure</a> <em>(January 18th)</em></li>
+  
+    <li><a href="/2009/1/17/january-11-new-plymouth">January 11 -- New Plymouth</a> <em>(January 17th)</em></li>
+  
+    <li><a href="/2009/1/16/january-10-the-north-island">January 10 -- the North Island</a> <em>(January 16th)</em></li>
+  
+    <li><a href="/2009/1/15/january-9">January 9</a> <em>(January 15th)</em></li>
+  
+    <li><a href="/2009/1/14/january-8">January 8 -- Anchorage</a> <em>(January 14th)</em></li>
+  
+    <li><a href="/2009/1/13/january-7-a-dolphin">January 7 -- Onetahuti</a> <em>(January 13th)</em></li>
+  
+    <li><a href="/2009/1/12/january-6-nelson">January 6 -- Nelson</a> <em>(January 12th)</em></li>
+  
+    <li><a href="/2009/1/11/january-5-fox-glacier">January 5 -- Fox Glacier</a> <em>(January 11th)</em></li>
+  
+  </ul>
+</dd>
+
+<dt>Comments <a class="feed" href="http://feeds.feedburner.com/bryan-larsen/comments"><span>subscribe</span></a></dt>
+<dd>
+  <ul>
+  
+    <li><span>Bryan</span> on <a href="/2009/3/23/using-a-vertex-ssd-with-ubuntu-jaunty#comment-711">Installing and Optimizing an SSD with Ubuntu Jaunty</a></li>
+  
+    <li><span>Wayne</span> on <a href="/2009/3/23/using-a-vertex-ssd-with-ubuntu-jaunty#comment-709">Installing and Optimizing an SSD with Ubuntu Jaunty</a></li>
+  
+    <li><a href="http://www.fnord.ca/">Jason</a> on <a href="/2009/1/24/january-17-flying-away#comment-678">January 17 -- Flying Away</a></li>
+  
+    <li><span>Bethany</span> on <a href="/2009/1/19/january-13-robbed-in-turangi#comment-666">January 13 -- Robbed in Turangi</a></li>
+  
+    <li><span>Marie-Elizabeth</span> on <a href="/2009/1/19/january-13-robbed-in-turangi#comment-665">January 13 -- Robbed in Turangi</a></li>
+  
+    <li><span>Bethany</span> on <a href="/2009/1/5/december-30#comment-664">December 30</a></li>
+  
+    <li><a href="http://www.fnord.ca/">Jason</a> on <a href="/2009/1/5/december-30#comment-660">December 30</a></li>
+  
+    <li><span>Farha McMillan</span> on <a href="/2009/1/8/january-2#comment-641">January 2</a></li>
+  
+    <li><span>Mom</span> on <a href="/2009/1/1/december-26#comment-638">December 26</a></li>
+  
+    <li><span>brian</span> on <a href="/2009/1/3/december-28#comment-632">December 28</a></li>
+  
+    <li><span>david</span> on <a href="/2009/1/3/december-28#comment-629">December 28</a></li>
+  
+    <li><span>Farha</span> on <a href="/2008/12/25/december-18-20-2008-from-auckland#comment-606">December 18 - 20, 2008 from Auckland</a></li>
+  
+    <li><span>Bryan</span> on <a href="/2008/3/17/ottawa-public-library-greasemonkey-script#comment-332">Ottawa Public Library to Amazon Greasemonkey Script</a></li>
+  
+    <li><a href="http://www.fnord.ca/">Jason</a> on <a href="/2008/3/17/ottawa-public-library-greasemonkey-script#comment-331">Ottawa Public Library to Amazon Greasemonkey Script</a></li>
+  
+    <li><span>Alan Falloon</span> on <a href="/2008/3/17/ottawa-public-library-greasemonkey-script#comment-330">Ottawa Public Library to Amazon Greasemonkey Script</a></li>
+  
+  </ul>
+</dd>
+</dl>
+</div>
+ 
+<div class="boxy short">
+  <h3>Archives</h3>
+  
+  <ul>
+  
+    <li><a href="/archives/2009/8">August 2009</a></li>
+  
+    <li><a href="/archives/2009/7">July 2009</a></li>
+  
+    <li><a href="/archives/2009/6">June 2009</a></li>
+  
+    <li><a href="/archives/2009/5">May 2009</a></li>
+  
+    <li><a href="/archives/2009/4">April 2009</a></li>
+  
+    <li><a href="/archives/2009/3">March 2009</a></li>
+  
+    <li><a href="/archives/2009/2">February 2009</a></li>
+  
+    <li><a href="/archives/2009/1">January 2009</a></li>
+  
+    <li><a href="/archives/2008/12">December 2008</a></li>
+  
+    <li><a href="/archives/2008/11">November 2008</a></li>
+  
+    <li><a href="/archives/2008/10">October 2008</a></li>
+  
+    <li><a href="/archives/2008/9">September 2008</a></li>
+  
+    <li><a href="/archives/2008/8">August 2008</a></li>
+  
+    <li><a href="/archives/2008/7">July 2008</a></li>
+  
+    <li><a href="/archives/2008/6">June 2008</a></li>
+  
+    <li><a href="/archives/2008/5">May 2008</a></li>
+  
+    <li><a href="/archives/2008/4">April 2008</a></li>
+  
+    <li><a href="/archives/2008/3">March 2008</a></li>
+  
+    <li><a href="/archives/2008/2">February 2008</a></li>
+  
+    <li><a href="/archives/2008/1">January 2008</a></li>
+  
+    <li><a href="/archives/2007/12">December 2007</a></li>
+  
+    <li><a href="/archives/2007/11">November 2007</a></li>
+  
+    <li><a href="/archives/2007/10">October 2007</a></li>
+  
+    <li><a href="/archives/2007/9">September 2007</a></li>
+  
+    <li><a href="/archives/2007/8">August 2007</a></li>
+  
+    <li><a href="/archives/2007/7">July 2007</a></li>
+  
+    <li><a href="/archives/2007/6">June 2007</a></li>
+  
+    <li><a href="/archives/2007/5">May 2007</a></li>
+  
+    <li><a href="/archives/2007/4">April 2007</a></li>
+  
+    <li><a href="/archives/2007/3">March 2007</a></li>
+  
+    <li><a href="/archives/2007/2">February 2007</a></li>
+  
+    <li><a href="/archives/2007/1">January 2007</a></li>
+  
+    <li><a href="/archives/2006/12">December 2006</a></li>
+  
+    <li><a href="/archives/2006/11">November 2006</a></li>
+  
+    <li><a href="/archives/2006/10">October 2006</a></li>
+  
+    <li><a href="/archives/2006/9">September 2006</a></li>
+  
+  </ul>
+</div>
+
+
+<div class="boxy short">
+  <h3>tags: </h3>
+  <ul>
+   
+    <li><a href="/tags/!">!</a></li>
+  
+  </ul>
+</div>
+
+ 
+
+</div>
+
+  <!-- sidebar -->
+
+</div>
+
+<div id="options">
+  <h2>Options:</h2>
+  <h3>Size</h3>
+  <ul id="option_size">
+    <li id="option_size_fixed"   class="fixed" ><a><span>fixed </span></a></li>
+    <li id="option_size_fluid"   class="fluid" ><a><span>fluid </span></a></li>
+  </ul>
+<!-- 
+  <h3>Colors</h3>
+  <ul id="option_color">
+    <li id="option_color_orange" class="orange"><a><span>orange</span></a></li>
+    <li id="option_color_blue"   class="blue"  ><a><span>blue  </span></a></li>
+    <li id="option_color_green"  class="green" ><a><span>green </span></a></li>
+    <li id="option_color_pink"   class="pink"  ><a><span>pink  </span></a></li>
+    <li id="option_color_cyan"   class="cyan"  ><a><span>cyan  </span></a></li>
+    <li id="option_color_red"    class="red"   ><a><span>red   </span></a></li>
+    <li id="option_color_violet" class="violet"><a><span>violet</span></a></li>
+  </ul>
+-->
+</div>
+
+<div id="footer">
+<p>Copyright &copy; 2007, Bryan Larsen.</p>
+<p>Using <a href="http://evil.che.lu/projects/skittlish">skittlish</a> on <a href="http://publishwithimpunity.com/">mephisto</a>.</p>
+</div>
+
+</div>
+
+</body>
+
+</html>

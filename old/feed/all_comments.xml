@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>Bryan's Blog - All Comments</title>
+  <id>tag:bryan.larsen.st,2009:mephisto/comments</id>
+  <generator version="0.7.3" uri="http://mephistoblog.com">Mephisto Noh-Varr</generator>
+  <link href="http://bryan.larsen.st/feed/all_comments.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://bryan.larsen.st/" rel="alternate" type="text/html"/>
+  <updated>2009-04-01T15:45:28Z</updated>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-03-23:708:711</id>
+    <published>2009-04-01T15:45:28Z</published>
+    <updated>2009-04-01T15:45:28Z</updated>
+    <category term="Technical"/>
+    <link href="http://bryan.larsen.st/2009/3/23/using-a-vertex-ssd-with-ubuntu-jaunty" rel="alternate" type="text/html"/>
+    <title>Comment on 'Installing and Optimizing an SSD with Ubuntu Jaunty' by Bryan</title>
+<content type="html">&lt;p&gt;Hmmm, I can&#8217;t say I&#8217;ve noticed much.  The big win is on boot&#8212;Ubuntu boots faster than my &lt;span class=&quot;caps&quot;&gt;BIOS&lt;/span&gt; does.  But my home directory is &lt;span class=&quot;caps&quot;&gt;NFS&lt;/span&gt; mounted, so that&#8217;s slower, and counteracts my root and work directories being on &lt;span class=&quot;caps&quot;&gt;SSD&lt;/span&gt; to a large degree.  The new machine has a faster processor and more &lt;span class=&quot;caps&quot;&gt;RAM&lt;/span&gt;, so that contributes to extra speed.   But rails-dev-boost sped things up more than anything else!  :)&lt;/p&gt;
+
+
+	&lt;p&gt;P.S.  I think it&#8217;s time to kill feedburner.  Your comment never showed up on my feed.&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Wayne</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-03-23:708:709</id>
+    <published>2009-03-24T00:09:11Z</published>
+    <updated>2009-03-24T00:09:11Z</updated>
+    <category term="Technical"/>
+    <link href="http://bryan.larsen.st/2009/3/23/using-a-vertex-ssd-with-ubuntu-jaunty" rel="alternate" type="text/html"/>
+    <title>Comment on 'Installing and Optimizing an SSD with Ubuntu Jaunty' by Wayne</title>
+<content type="html">&lt;p&gt;What&#8217;s your first impression?  The &lt;span class=&quot;caps&quot;&gt;SSD&lt;/span&gt;&#8217;s look pretty good against a fast desktop drive. Put them up against a slow notebook drive, and it becomes pretty damn tempting. On the other hand though, 30GB isn&#8217;t really enough for a standalone drive. And the 80GB &lt;span class=&quot;caps&quot;&gt;X25&lt;/span&gt;-M is still $550.  Oh well, I guess I can put up with Safari beachballing on me for a while yet.&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Jason</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-01-24:670:678</id>
+    <published>2009-01-26T04:20:59Z</published>
+    <updated>2009-01-26T04:20:59Z</updated>
+    <category term="New Zealand Christmas"/>
+    <link href="http://bryan.larsen.st/2009/1/24/january-17-flying-away" rel="alternate" type="text/html"/>
+    <title>Comment on 'January 17 -- Flying Away' by Jason</title>
+<content type="html">&lt;p&gt;Hey you two, thanks for diligently blogging your trip!  It was interesting to read all about your adventures in New Zealand.&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Bethany</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-01-19:656:666</id>
+    <published>2009-01-20T18:16:39Z</published>
+    <updated>2009-01-20T18:16:39Z</updated>
+    <category term="New Zealand Christmas"/>
+    <link href="http://bryan.larsen.st/2009/1/19/january-13-robbed-in-turangi" rel="alternate" type="text/html"/>
+    <title>Comment on 'January 13 -- Robbed in Turangi' by Bethany</title>
+<content type="html">&lt;p&gt;You are right, Bundaberg.  Although we did have a few Kiwi brands which were pretty good&#8212;Bundaberg has a diet version though.&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Marie-Elizabeth</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-01-19:656:665</id>
+    <published>2009-01-20T03:37:09Z</published>
+    <updated>2009-01-20T03:37:09Z</updated>
+    <category term="New Zealand Christmas"/>
+    <link href="http://bryan.larsen.st/2009/1/19/january-13-robbed-in-turangi" rel="alternate" type="text/html"/>
+    <title>Comment on 'January 13 -- Robbed in Turangi' by Marie-Elizabeth</title>
+<content type="html">&lt;p&gt;So you got a taste of the lemon lime and bitter hun&lt;img src=&quot;?&quot; alt=&quot;&quot; /&gt; Unless it&#8217;s a Kiwi brand I think you mean Bundaberg which is a town in Queensland Auz, known for it&#8217;s rum and mostly for it&#8217;s already mixt (bottle or can) rum and coke. I see you guys are having fun! My poor Bethany, you guys always seem to get injured! ;) What a trooper!!&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Bethany</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-01-05:623:664</id>
+    <published>2009-01-20T00:35:53Z</published>
+    <updated>2009-01-20T00:35:53Z</updated>
+    <category term="New Zealand Christmas"/>
+    <link href="http://bryan.larsen.st/2009/1/5/december-30" rel="alternate" type="text/html"/>
+    <title>Comment on 'December 30' by Bethany</title>
+<content type="html">&lt;p&gt;&#8220;Naseby now has an indoor International Curling Rink (opened July 2005), the first in Australasia. With the construction of the only dedicated indoor curling rink in the southern hemisphere, Naseby can now offer a very long season of  curling to an international standard.&#8221;&lt;/p&gt;
+
+
+	&lt;p&gt;&#8212;excerpted from The Royal Hotel Naseby website&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Jason</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-01-05:623:660</id>
+    <published>2009-01-16T04:07:57Z</published>
+    <updated>2009-01-16T04:07:57Z</updated>
+    <category term="New Zealand Christmas"/>
+    <link href="http://bryan.larsen.st/2009/1/5/december-30" rel="alternate" type="text/html"/>
+    <title>Comment on 'December 30' by Jason</title>
+<content type="html">&lt;p&gt;Really, there&#8217;s only one curling club in the whole southern hemisphere?  Wow.  I guess it requires a combination of cold temperatures and british heritage.  (&#8220;But what about the Falklands?&#8221;)&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Farha McMillan</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-01-08:626:641</id>
+    <published>2009-01-08T21:09:02Z</published>
+    <updated>2009-01-08T21:09:02Z</updated>
+    <category term="New Zealand Christmas"/>
+    <link href="http://bryan.larsen.st/2009/1/8/january-2" rel="alternate" type="text/html"/>
+    <title>Comment on 'January 2' by Farha McMillan</title>
+<content type="html">&lt;p&gt;Oh no, colds and another trip with broken glass.  Hope you guys are feeling better and the lens is fixable.&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Mom</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-01-01:611:638</id>
+    <published>2009-01-06T02:29:07Z</published>
+    <updated>2009-01-06T02:29:07Z</updated>
+    <category term="New Zealand Christmas"/>
+    <link href="http://bryan.larsen.st/2009/1/1/december-26" rel="alternate" type="text/html"/>
+    <title>Comment on 'December 26' by Mom</title>
+<content type="html">&lt;p&gt;No I don&#8217;t worry.  I trust Bethany to get Bryan out of any jam he gets into.  Now if Bethany were to get into a jam&#8212;than I&#8217;d worry.&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>brian</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-01-03:621:632</id>
+    <published>2009-01-04T18:59:49Z</published>
+    <updated>2009-01-04T18:59:49Z</updated>
+    <category term="New Zealand Christmas"/>
+    <link href="http://bryan.larsen.st/2009/1/3/december-28" rel="alternate" type="text/html"/>
+    <title>Comment on 'December 28' by brian</title>
+<content type="html">&lt;p&gt;Was Bryan really sick or was he faking to have a psudeo pho meal on a Sunday in absent celebration with his fellow HPVOoOers?  Nice details of your trip so far.  Can hardly wait till I hear about the bungy jump.&lt;/p&gt;
+
+
+	&lt;p&gt;Brian M.&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>david</name>
+    </author>
+    <id>tag:bryan.larsen.st,2009-01-03:621:629</id>
+    <published>2009-01-03T22:11:20Z</published>
+    <updated>2009-01-03T22:11:20Z</updated>
+    <category term="New Zealand Christmas"/>
+    <link href="http://bryan.larsen.st/2009/1/3/december-28" rel="alternate" type="text/html"/>
+    <title>Comment on 'December 28' by david</title>
+<content type="html">&lt;p&gt;Poor Bryan.  Passing up a lamb dinner for instant chicken noodle soup, that boy was sick.&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Farha</name>
+    </author>
+    <id>tag:bryan.larsen.st,2008-12-25:590:606</id>
+    <published>2008-12-28T05:01:42Z</published>
+    <updated>2008-12-28T05:01:42Z</updated>
+    <category term="New Zealand Christmas"/>
+    <link href="http://bryan.larsen.st/2008/12/25/december-18-20-2008-from-auckland" rel="alternate" type="text/html"/>
+    <title>Comment on 'December 18 - 20, 2008 from Auckland' by Farha</title>
+<content type="html">&lt;p&gt;We&#8217;re glad you made the stop in Vancouver too.  It was great to see you guys.&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Bryan</name>
+    </author>
+    <id>tag:bryan.larsen.st,2008-03-17:329:332</id>
+    <published>2008-03-20T13:31:41Z</published>
+    <updated>2008-03-20T13:31:41Z</updated>
+    <link href="http://bryan.larsen.st/2008/3/17/ottawa-public-library-greasemonkey-script" rel="alternate" type="text/html"/>
+    <title>Comment on 'Ottawa Public Library to Amazon Greasemonkey Script' by Bryan</title>
+<content type="html">&lt;p&gt;Yes, I&#8217;ve been thinking about signing up for Library Elf.  But the &lt;span class=&quot;caps&quot;&gt;OPL&lt;/span&gt; was promising email notification and I procrastinated long enough that it&#8217;s arrived already&#8230;&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Jason</name>
+    </author>
+    <id>tag:bryan.larsen.st,2008-03-17:329:331</id>
+    <published>2008-03-18T22:40:58Z</published>
+    <updated>2008-03-18T22:40:58Z</updated>
+    <link href="http://bryan.larsen.st/2008/3/17/ottawa-public-library-greasemonkey-script" rel="alternate" type="text/html"/>
+    <title>Comment on 'Ottawa Public Library to Amazon Greasemonkey Script' by Jason</title>
+<content type="html">&lt;p&gt;Nice script Bryan, thanks!&lt;/p&gt;
+
+
+	&lt;p&gt;You can also get rss feeds and sms text messages (and emails) of your library hold status (and more) via &lt;a href=&quot;http://www.libraryelf.com/&quot;&gt;Library_Elf&lt;/a&gt;&lt;/p&gt;</content>  </entry>
+  <entry xml:base="http://bryan.larsen.st/">
+    <author>
+      <name>Alan Falloon</name>
+    </author>
+    <id>tag:bryan.larsen.st,2008-03-17:329:330</id>
+    <published>2008-03-18T00:48:47Z</published>
+    <updated>2008-03-18T00:48:47Z</updated>
+    <link href="http://bryan.larsen.st/2008/3/17/ottawa-public-library-greasemonkey-script" rel="alternate" type="text/html"/>
+    <title>Comment on 'Ottawa Public Library to Amazon Greasemonkey Script' by Alan Falloon</title>
+<content type="html">&lt;p&gt;I just tried it out and it works great! Thanks.&lt;/p&gt;</content>  </entry>
+</feed>
