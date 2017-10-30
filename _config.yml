@@ -24,7 +24,7 @@ github_username:  bryanlarsen
 
 # Build settings
 markdown: kramdown
-theme: jekyll-athena
+theme: minima
 plugins:
   - jekyll-feed
 
