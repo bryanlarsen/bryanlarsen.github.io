@@ -1,0 +1,56 @@
+---
+layout: post
+title: Rogers dropping MSN messages?
+date: 2007-02-01 21:35:00-05:00
+---
+<div class="body">
+ <p>
+  For the last month or so, communications between my fiancée and myself
+over MSN have been unreliable.  It appeared that I received all of the
+messages that my fiancée sent, but she did not get a few of the
+messages I sent.  This was very aggravating, because there was no
+notification that a problem occurred.  She just thought that I wasn’t
+responding to her!
+ </p>
+ <p>
+  In the past I’ve had problems with dropped connections to various
+instant messaging servers.  Those were annoying, but at least you knew
+about it.  If the connection dropped, your client would tell you that
+the message could not be delivered.
+ </p>
+ <p>
+  I’ve tried a couple of different AIM clients to try and fix the
+problem.  However, it turns out that both of them use libgaim as their
+back-end, so that is possibly the source of the problem.
+ </p>
+ <p>
+  However, there is also another potential source of the problem: my
+ISP, Rogers.  Rogers is probably the largest Internet over Cable
+provider in Canada, and employs packet-shaping devices to silently
+drop encrypted bittorrent connections.  To identify normal bittorrent
+packets, Rogers can use packet filters that identify the traffic as
+bittorrent with near 100% certainty.  However, encrypted bittorrent
+traffic is much more difficult to identify; to a third party observer,
+the traffic is very similar to random noise.  Other encrypted and/or
+compressed communications channels will seem very similar.
+ </p>
+ <p>
+  Certainly there are signatures that might identify it as encrypted
+bittorrent traffic, however it is much more like that “false
+positives” might occur, and the packet filters might start interfering
+with other services, such as my MSN.
+  <a href="http://www.dslreports.com/forum/remark,17750499">
+   According to my dslreports
+thread
+  </a>
+  , there may be
+others with the same problem.
+ </p>
+ <p>
+  I may be able to live without bittorrent; there are other ways of
+downloading ubuntu ISO’s.  However, if I cannot be sure that other
+services I rely on are unaffected, I am forced to switch internet
+providers.  I have begun this process; I highly recommend that all
+other customers of Rogers also do the same.
+ </p>
+</div>

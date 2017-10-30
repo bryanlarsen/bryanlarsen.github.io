@@ -1,0 +1,160 @@
+---
+layout: post
+title: Installing and Optimizing an SSD with Ubuntu Jaunty
+date: 2009-03-23 12:19:00-04:00
+---
+<div class="body">
+ <p>
+  With
+  <a href="http://anandtech.com/storage/showdoc.aspx?i=3531">
+   Anand&#39;s latest review of SSD&#39;s
+  </a>
+  and
+  <a href="http://torvalds-family.blogspot.com/2009/03/ssd-followup.html">
+   Linus&#39; endorsement of that review
+  </a>
+  , it seemed like a good time to move my noisy hard drives to the basement and switch to an flash based hard drive (AKA solid state drive: SSD).
+ </p>
+ <p>
+  The 30GB Vertex SSD is currently CAD$ 160.   Getting anything other than the smallest one seems very silly - I assume that prices are going to drop like a rock, so it&#39;d be very painful to spend much more than that on anything that will be worthless in a year or two.
+ </p>
+ <p>
+  Luckily, Linux will fit very easily into 30GB.  The plan is to put just about everything except for the operating system and work onto the NFS server in the basement.
+ </p>
+ <p>
+  The process did not go very smoothly at all.   I highly recommend staying away from the Vertex drives for a few months to let them mature.  But if you insist, here&#39;s the procedure I went through.
+ </p>
+ <p>
+  The first thing I had to do was
+  <a href="https://wiki.ubuntu.com/KernelMainlineBuilds">
+   upgrade my kernel to 2.6.29
+  </a>
+  .  The SSD worked for a little while, and then failed completely.  It appeared to work on an Intel based machine, but my AMD 780G machine was not happy at all.   I even went through the hassle of installing Windows XP to see if it worked there, but XP didn&#39;t even see the drive.  Note that my other machine appeared to work fine with the SSD, so I think it&#39;s sort of SB700/SSD interaction.  Others have reported issues on the forum as well.
+ </p>
+ <p>
+  The first thing you&#39;ll probably want to do is a secure erase of the drive.  SSD&#39;s slow down as they&#39;re used, so starting fresh is essential.  Warning, this will completely erase any ATA drive, so make sure you have that drive letter right!
+ </p>
+ <pre>
+  <code>
+   hdparm --security-erase NULL /dev/sda
+  </code>
+ </pre>
+ <p>
+  Following
+  <a href="http://thunk.org/tytso/blog/2009/02/20/aligning-filesystems-to-an-ssds-erase-block-size/">
+   Ted Tso&#39;s instructions on how to properly align the partitions for maximum speed
+  </a>
+  :
+ </p>
+ <pre>
+  <code>
+   fdisk -H 224 -S 56 /dev/sda
+# enter &#39;n, p, 1, 1, 5082&#39; at the prompts to create a partition covering the entire drive
+# enter &#39;x, b, 1, 256, w&#39; to move the start of the partition into alignment
+mke2fs -t ext4 -E stripe-width=32,resize=50G /dev/sda1
+mkdir /mnt/ssd
+mount /dev/sda1 /mnt/ssd
+  </code>
+ </pre>
+ <p>
+  Now follow
+  <a href="http://articles.techrepublic.com.com/5100-10878_11-6149142.html">
+   these instructions
+  </a>
+  to copy your operating system over to the new drive.  We&#39;re going to copy over everything except for /home/blarsen, which we&#39;re going to mount over NFS.
+ </p>
+ <pre>
+  <code>
+   ls / &gt; ~/root_files
+vi ~/root_files  # remove proc, sys, mnt, home et cetera
+tar --create --one-file-system --file - `cat ~/root_files` | (cd /mnt/ssd ; tar xvf -)
+mkdir /mnt/ssd/proc
+mkdir /mnt/ssd/sys
+mkdir /mnt/ssd/mnt
+mkdir -p /mnt/ssd/home/blarsen
+chown blarsen.blarsen /mnt/ssd/home/blarsen
+  </code>
+ </pre>
+ <p>
+  Let&#39;s set up our fstab to nfs mount /home/blarsen, and run tmpfs on /tmp and /var/tmp.  The size parameter to tmpfs is a maximum size -- it doesn&#39;t use any RAM if it isn&#39;t needed.   The default is half your RAM, so you&#39;ll probably want to limit down a bit.
+ </p>
+ <pre>
+  <code>
+   cat &gt; /mnt/ssd/etc/fstab
+bulti:/home/blarsen     /home/blarsen           nfs             rsize=8192,wsize=8192,timeo=14,intr,noatime,nodiratime 0 0
+none    /tmp            tmpfs     size=500M,mode=777,auto      0       0
+none    /var/tmp        tmpfs   size=500M,mode=777,auto       0       0
+^D
+  </code>
+ </pre>
+ <p>
+  Change your root partition in fstab:
+ </p>
+ <pre>
+  <code>
+   blkid # to determine the UUID
+vi /mnt/ssd/etc/fstab
+  </code>
+ </pre>
+ <p>
+  Now, update the grub menu.lst.   These instructions are missing from the tech republic link above.   You want to look for the kopt= and groot= option lines.  They look like comment lines, but they are actually instructions to update-grub.  While you&#39;re at it, add &#34;elevator=deadline&#34; to your kopt.
+ </p>
+ <pre>
+  <code>
+   vi /mnt/ssd/boot/grub/menu.lst # update kopt, groot UUID&#39;s.  Also add elevator=deadline to kopt
+chroot /mnt/ssd
+update-grub
+exit
+  </code>
+ </pre>
+ <p>
+  And install grub on the new drive:
+ </p>
+ <pre>
+  <code>
+   grub-install --root-directory=/mnt/ssd /dev/sda
+  </code>
+ </pre>
+ <p>
+  Let&#39;s save our SSD by logging to our NFS server.   See these
+  <a href="http://docs.sun.com/source/820-4893-11/chap_CF.html#50626577_57974">
+   instructions from Sun
+  </a>
+  .
+ </p>
+ <pre>
+  <code>
+   cat &gt;&gt; /mnt/ssd/etc/hosts
+192.168.1.91 bulti loghost
+^D
+cat &gt;  /mnt/ssd/etc/syslog.conf
+*.*;            @loghost
+*.err;*.emerg   /var/log/messages
+  </code>
+ </pre>
+ <p>
+  On your loghost, edit /etc/default/syslogd to add the &#34;-r&#34; option and restart sysklogd.
+ </p>
+ <p>
+  Switch your network interface away from network-manager so it comes up earlier in your boot cycle:
+ </p>
+ <pre>
+  <code>
+   cat &gt;&gt; /mnt/ssd/etc/network/interfaces
+auto eth0
+iface eth0 inet dhcp
+^D
+  </code>
+ </pre>
+ <p>
+  rsync your home directory to your NFS server.
+ </p>
+ <pre>
+  <code>
+   rsync -av /home/blarsen/ bulti:/home/blarsen/  # those trailing slashes are important
+  </code>
+ </pre>
+ <p>
+  Reboot and enjoy!
+ </p>
+</div>
