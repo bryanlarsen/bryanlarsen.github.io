@@ -23,6 +23,6 @@ Full stack: from circuit design to CSS.  From bootloader to React.  From databas
 
 Multiple years of experience in the following:
 
-ARM & 68K Assembler, AWS, Autocad, Bash, C, C++, CGI, CSS, Cadence, Embedded, GCP, Git, HTML, JQuery, Java, Javascript, Jenkins, Jenkins, Kubernetes, Labview, Linux Drivers, Lisp, Make, Mentor Graphics, MySQL, PostgreSQL, Rails, Ruby, Rust, SIP, SPICE, SQL, SQLite, Scheme, Selenium, Sh, TCL, Typescript, U-boot, VHDL, XML-RPC, 8 bit Assembler 
+ARM & 68K Assembler, AWS, Autocad, Bash, C, C++, CGI, CSS, Cadence, Docker, Embedded, GCP, Git, HTML, JQuery, Java, Javascript, Jenkins, Jenkins, Kubernetes, Labview, Linux Drivers, Lisp, Make, Mentor Graphics, MySQL, Node.js, PostgreSQL, Rails, Ruby, Rust, SIP, SPICE, SQL, SQLite, Scheme, Selenium, Sh, TCL, Typescript, U-boot, VHDL, XML-RPC, 8 bit Assembler
 
 [full resume](kitchen-sink-resume.html)
