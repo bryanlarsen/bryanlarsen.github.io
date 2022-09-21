@@ -14,13 +14,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Bryan's Blog
+author: Bryan Larsen
 email: bryan@larsen.st
+description: >-
+   
 #description: >-
 #  Bryan Larsen's log
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  bryanlarsen
+linkedin_username: bryanlarsen
+stackoverflow_username: "91365"
 
 # Build settings
 markdown: kramdown
@@ -47,3 +52,4 @@ exclude:
 jekyll-archives:
   enabled: categories
   layout: 'post'
+
