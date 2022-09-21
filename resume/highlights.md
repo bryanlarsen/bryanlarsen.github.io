@@ -23,7 +23,7 @@ Full stack: from circuit design to CSS.  From bootloader to React.  From databas
 
 Over 10 years of experience in each of:
 
-- DevOps: Kubernetes, Docker, GCP, AWS, Webpack, MongoDB, PostgreSQL, MySQL, Redis, Make, Jenkins, SQLite, sh, Bash, Selenium, TCL, Git
+- DevOps: Kubernetes, Docker, GCP, AWS, Webpack, MongoDB, PostgreSQL, MySQL, Redis, Prometheus, Make, Jenkins, SQLite, sh, Bash, Selenium, TCL, Git
 - Full Stack WebDev: React, Typescript, Javascript, CSS, CGI, Ruby, Rails, Node.js, SQL
 - Embedded: Rust, C, C++, Linux Drivers, U-boot, ARM/68K/8051 assembly, Circuit Design, VHDL
 
