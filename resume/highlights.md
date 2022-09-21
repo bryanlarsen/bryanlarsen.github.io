@@ -23,11 +23,13 @@ https://stackoverflow.com/help/badges/17/necromancer?userid=91365
 https://github.com/bryanlarsen
 https://www.linkedin.com/in/bryanlarsen/
 
-# Keywords
+# Areas of Expertise
 
-Multiple years of experience in the following:
+Over 10 years of experience in each of:
 
-ARM & 68K Assembler, AWS, Autocad, Bash, C, C++, CGI, CSS, Cadence, Embedded, GCP, Git, HTML, JQuery, Java, Javascript, Jenkins, Jenkins, Kubernetes, Labview, Linux Drivers, Lisp, Make, Mentor Graphics, MySQL, PostgreSQL, Rails, Ruby, Rust, SIP, SPICE, SQL, SQLite, Scheme, Selenium, Sh, TCL, Typescript, U-boot, VHDL, XML-RPC, 8 bit Assembler 
+- DevOps: Kubernetes, Docker, GCP, AWS, Webpack, MongoDB, PostgreSQL, MySQL, Redis, Make, Jenkins, SQLite, sh, Bash, Selenium, TCL, Git
+- Full Stack WebDev: React, Typescript, Javascript, CSS, CGI, Ruby, Rails, Node.js, SQL
+- Embedded: Rust, C, C++, Linux Drivers, U-boot, ARM/68K/8051 assembly, Circuit Design, VHDL
 
 # Contact
 
