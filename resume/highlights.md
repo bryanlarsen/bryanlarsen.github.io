@@ -21,7 +21,7 @@ Full stack: from circuit design to CSS.  From bootloader to React.  From databas
 
 # Areas of Expertise
 
-Over 10 years of experience in each of:
+Over 10 years of experience in each of 3 areas:
 
 - DevOps: Kubernetes, Docker, GCP, AWS, Webpack, MongoDB, PostgreSQL, MySQL, Redis, Prometheus, Make, Jenkins, SQLite, sh, Bash, Selenium, TCL, Git
 - Full Stack WebDev: React, Typescript, Javascript, CSS, CGI, Ruby, Rails, Node.js, SQL
