@@ -3,7 +3,7 @@ layout: post
 title: Resumé
 category: resume
 ---
+- [PDF](combined-resume.pdf)
 - [Highlights](highlights.html)
 - [Resume](condensed-resume.html)
-- [Full Resume](kitchen-sink-resume.html)
-- [PDF](combined-resume.pdf)
+- [Complete work history](kitchen-sink-resume.html)

@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+// The nav has many links, and minima emits them with no whitespace between,
+// so the only line breaks were inside multi-word titles ("Larsen Farm").
+// Above the hamburger breakpoint, wrap between links instead.
+@media screen and (min-width: $on-palm + 1) {
+  .site-nav .trigger {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+}
+
+.site-nav .page-link {
+  white-space: nowrap;
+}

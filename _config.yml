@@ -27,6 +27,20 @@ github_username:  bryanlarsen
 linkedin_username: bryanlarsen
 stackoverflow_username: "91365"
 
+# Pages in the header nav. Listed explicitly so resume/highlights.md stays out
+# (it's linked from the resume index); new pages must be added here to show up.
+header_pages:
+  - arguments.html
+  - europe-2006.html
+  - galapagos.html
+  - larsenfarm/index.html
+  - resume/index.md
+  - projects/index.md
+  - meta.html
+  - new-zealand-christmas.html
+  - personal.html
+  - technical.html
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -48,6 +62,9 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - convert.sh
+  - devbox.json
+  - devbox.lock
+  - .devbox
 
 jekyll-archives:
   enabled: categories

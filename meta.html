@@ -2,6 +2,6 @@
 title: meta
 layout: post
 ---
-{% for post in site.categories.meta. %}
+{% for post in site.categories.meta %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}

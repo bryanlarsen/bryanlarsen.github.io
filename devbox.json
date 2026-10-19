@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.18.4/.schema/devbox.schema.json",
+  "packages": {
+    "ruby": "2.7",
+    "gcc": "latest",
+    "gnumake": "latest",
+    "pkg-config": "latest",
+    "libxml2": "latest",
+    "libxslt": "latest",
+    "zlib": "latest"
+  },
+  "env": {
+    "RUBYOPT": "-W0",
+    "LC_ALL": "C.UTF-8"
+  },
+  "shell": {
+    "init_hook": [
+      "bundle config set --local path vendor/bundle"
+    ],
+    "scripts": {
+      "install": "bundle install",
+      "build": "bundle exec jekyll build",
+      "serve": "bundle exec jekyll serve"
+    }
+  }
+}
